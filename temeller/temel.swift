@@ -17,7 +17,7 @@ managerName = "Muhammet Arda YILDIZ" // managerName değişkeni Michael Scott'du
 print("managerName değişkeni: " , managerName)
 
 
-/// Değişkenler ve sabitler nasıl oluşturulur?  : https://www.hackingwithswift.com/quick-start/beginners/how-to-create-strings
+/// Dizeler nasıl oluşturulur :  https://www.hackingwithswift.com/quick-start/beginners/how-to-create-strings
 
 
 var selam = "Merhaba Dünya!"
