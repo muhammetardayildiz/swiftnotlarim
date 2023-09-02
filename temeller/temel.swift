@@ -2,6 +2,9 @@ import UIKit
 
 // Kaynak : Hacking With Swift : https://www.hackingwithswift.com/
 
+
+// GÜN 1 : https://www.hackingwithswift.com/100/swiftui/1
+
 /// Değişkenler ve sabitler nasıl oluşturulur? :  https://www.hackingwithswift.com/quick-start/beginners/how-to-create-variables-and-constants
 
 let character = "Daphne" // Sabit Değişken
@@ -63,6 +66,21 @@ print(counter)
 
 // 120'nin üçün katı olup olmadığını şu şekilde sorabiliriz:
 print(120.isMultiple(of: 3))
+      
+// Ondalık sayılar nasıl saklanır : https://www.hackingwithswift.com/quick-start/beginners/how-to-store-decimal-numbers
+
+let number = 0.1 + 0.2
+print(number)
+
+let a = 1
+let b = 2.0
+// let c = a + b //  HATA : SEBEP : Swift, farklı veri türlerini kazara karıştırmamıza izin vermez. Çalışmasını istiyorsanız  let c = a + Int(b) veya let c = Double(a) + b şeklinde yazmanız gerekir
+
+let double1 = 3.1 // Double
+let double2 = 3131.3131 // Double
+let double3 = 3.0 // Double
+let int1 = 3 // İnt
 
 
-/// TODO : BİR SONRAKİ DERS https://www.hackingwithswift.com/quick-start/beginners/how-to-store-decimal-numbers
+// TODO: GÜN 2 : https://www.hackingwithswift.com/100/swiftui/2
+/// Konular : 1 - Booleans ile gerçek nasıl saklanır,  2 - Dizeler nasıl birleştirilir 3-Özet: Basit veriler
