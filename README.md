@@ -1,0 +1,2 @@
+# swiftnotlarim
+Swift Öğreniyorum
